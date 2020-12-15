@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/fin",
+        "handler": "finance.hi",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
+  

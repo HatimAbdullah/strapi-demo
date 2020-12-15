@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loans",
+  "info": {
+    "name": "Loan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Amount": {
+      "type": "float"
+    },
+    "creation_date": {
+      "type": "datetime"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
